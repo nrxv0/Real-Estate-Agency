@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="style.css">
+
+      <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+        <!-- Boxicons -->
+        <link
+        href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"
+      />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="/" class="logo"> <img src="img/logo.png" alt="logo"></a>
+
+        <ul class="nav-list d-flex">
+         <div class="nav d-flex">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Acceuil</a>
+          </li>
+          <li class="nav-item">
+            <a href="#terms" class="nav-link">Achat</a>
+          </li>
+          <li class="nav-item">
+            <a href="#terms" class="nav-link">Location</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Vendre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Estimation</a>
+          </li>
+          <li class="nav-item">
+            <div class="profil">
+            <a href="#contact" class="nav-link"><i class='bx bxs-user'></i></a>
+          </div>
+          </li>
+        </div>
+          
+         
+        </ul>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+ <!-- END HEADER -->
+    <!-- /////// -->
+    <div class="content-grid-sidebar">
+      <!--  container of the sidebar and the favorites -->
+      <div class="sidebar">
+          <!-- sidebar -->
+          <ul class="sidebar-links"></ul>
+          <li><a href="#"><i class="fa-regular fa-user"></i><span> Profile</span></a></li>
+          <li><a href="#"><i class="fa-solid fa-bars"></i><span> Parametres</span></a></li>
+          <li><a href="#"><i class="fa-regular fa-heart"></i><span> Favoris</span></a></li>
+          <li><a href="#"><i class="fa-sharp fa-regular fa-bell"></i><span> Notifications</span></a></li>
+      </div>
+  <div class="vertical-line"></div>
+    <!-- ////// -->
+    <div class="container-of-everyting">
+    <h2>Modifier votre profile information :</h2>
+    <div class="form-container">
+    <form action="#">
+        <div class="form-grp">
+        <label for="username">Changer votre nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" placeholder="Nom d'utiliateur">
+        </div>
+        <div class="form-grp">
+        <label for="email">Changer votre Email :</label>
+        <input type="email" id="email" name="email" placeholder="Nouveau email">
+        </div>
+        <div class="form-grp">
+        <label for="number">Changer votre Numéro de téléphone :</label>
+        <input type="tel" id="number" name="number" placeholder="Numéro de téléphone">
+        </div>
+        <div class="form-grp">
+        <label for="password">Changer votre mot de passe:</label>
+        <div class="password-div">
+        <input type="password" id="password" name="password" placeholder="Mot de passe actual" required>
+        <input type="password" id="new-password" name="new-password" placeholder="Nouveau ot de passe">
+    </div>
+        </div>
+
+        <button type="submit" class="btn-settings">Valider</button>
+    </form>
+</div>
+</div>
+    </div>
+  <!-- Footer section  -->
+   
+  <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+        
+           <h3>About Us</h3>
+            <p>we want to help you find </br>your dream house.</p>
+           <br>
+         <h3>Contact</h3>
+         <p> <i class='bx bxs-phone' ></i> +213 669590430</p>
+           </div>
+            
+      
+  
+        <div class="col d-flex">
+          <h3>USEFUL LINKS</h3>
+          <a href="">Services</a>
+          <a href="">offers</a>
+          <a href="">Home</a>
+          <a href="">Estimation</a>
+          <a href="">About us</a>
+          
+        </div>
+        
+         <div class="opinion" > <h3>YOUR OPINION</h3>
+          <br><br>
+          <form>
+            <label for="comment">Add your comment:</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="13"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+          </form>
+        
+          </div>
+        </div>
+     <br> <br>
+          <div class="icon-wrapper">
+        <ul class="icon-list">
+            <li><a href=""><i class="fas fa-envelope"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+           
+          </ul>
+        </div>
+     
+      </div>
+    </footer>
+    <!--end of the footer section-->
+  
+  
+
+<script src="index.js"></script>
+</body>
+
+
+</html>
