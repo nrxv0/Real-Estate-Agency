@@ -4,7 +4,7 @@ Welcome to the showcase of web pages developed for our 2CP project during the 20
 
 ## Preview
 
-![Project Preview](images/image.jpg)
+![Project Preview](https://github.com/rye2x/Real-Estate-Agency/blob/main/img/Screenshot%202023-11-19%20at%2023-13-35%20Achter.png)
 
 ## Technologies Used
 
